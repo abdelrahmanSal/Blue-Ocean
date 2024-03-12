@@ -1,0 +1,53 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background-image: url(./bg-startweb.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: rgba(14, 161, 235, 0.46);
+  height: 7rem;
+}
+nav img {
+  width: 7rem;
+  background-color: rgba(0, 157, 255, 0.474);
+  margin: 1rem;
+  border-radius: 1rem;
+
+  position: relative;
+}
+
+nav a {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  transform: translate(-7rem, 2rem);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  flex-wrap: wrap;
+}
+.container div {
+    background-color: rgba(50, 186, 249, 0.407);
+    margin: 1rem;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.container div img {
+  width: 12rem;
+}
